@@ -13,6 +13,17 @@ Verify Login Page
     Verify Placeholder Text  ${inputPassword}    Password
     Verify Element Value     ${buttonLogin}      Login
 
-Verify Doctor Profile Name
-    [Arguments]     ${doctorName}
-    Verify Element Text     ${txtDoctorProfileName}      ${doctorName}
+Click Login button
+    Click Element  ${buttonLogin}
+
+Verify error on field Username
+    Verify Element  ${iconErrorUsername}
+
+Verify error on field Password
+    Verify Element  ${iconErrorPassword}
+
+Verify error "Username is required"
+    Verify Element  ${textHeaderError}
+    Verify Element  ${buttonError}
+    Verify Element  ${iconButtonError}
+    Verify Element Text  ${textHeaderError}  Epic sadface: Username is required
