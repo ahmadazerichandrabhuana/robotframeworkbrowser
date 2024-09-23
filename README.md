@@ -50,4 +50,7 @@ This sample test-automation consisted of 3 main folders :
    Contains test cases for each Web Pages
    ```
 
-Apart from these 3 folders, this sample also using .yaml file in case User want to use external file to store any data.
+Apart from these 3 folders, this sample also using .yaml file in case User want to use external file to store any data. On this sample, it is used to store URL used for test :
+   ```
+   SauceDemo_URL: https://www.saucedemo.com/
+   ```
