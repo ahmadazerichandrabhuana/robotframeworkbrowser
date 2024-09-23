@@ -13,19 +13,19 @@ This is simple sample for automation-test using RobotFramework.
 ## Run Tests
 * Run all tests : 
    ```
-   robot -d results tests
+   robot tests
    ```
 
 * Run specific test : 
    ```
-   robot -d results tests/{test file name using extention ".robot"}
-   sample : robot -d results tests/001.robot
+   robot tests/{test file name using extention ".robot"}
+   sample : robot tests/001.robot
    ```
 
 ## Open Test Report
 
-    open results/report.html
+    open report.html
 
 ## Open Test Log
 
-    open results/log.html
+    open log.html
