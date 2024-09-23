@@ -1,11 +1,12 @@
 *** Variables ***
-${BROWSER}      chromium
-${HEADLESS}     False
-${KEYWORD_TIMEOUT}      15s
-${BROWSER_TIMEOUT}      30s
+${BROWSER}              chromium
+${HEADLESS}             False
+${KEYWORD_TIMEOUT}      5s
+${BROWSER_TIMEOUT}      5s
 
 *** Settings ***
 Library     Browser      auto_closing_level=TEST    run_on_failure=Log And Capture Error    timeout=${BROWSER_TIMEOUT}
+Library     String
 Variables   ../env.yaml
 
 *** Keywords ***
@@ -24,4 +25,3 @@ Open New Browser
 
 Open SauceDemo
     Open New Browser    ${SauceDemo_URL}
-
