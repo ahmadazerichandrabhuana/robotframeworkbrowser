@@ -9,6 +9,7 @@ This is a simple sample for automation-test using RobotFramework.
    ```
     pip install -r requirements.txt
    ```
+3. Recommended Code Editor : [VS Code](https://code.visualstudio.com/), but you're welcome to use any Code Editor you're comfort with.
 
 ## Run Tests
 * Run all tests : 
