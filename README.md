@@ -1,6 +1,6 @@
 # Automation-Test using RobotFramework
 
-This is simple sample for automation-test using RobotFramework.
+This is a simple sample for automation-test using RobotFramework.
 
 ## Requirements
 
