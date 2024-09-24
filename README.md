@@ -3,7 +3,7 @@
 This is a simple sample for Test Automation using RobotFramework.
 
 > [!NOTE]  
-> This repository use Browser Library, not Selenium (which might more popular out there). Documentation can be found [here](https://robotframework-browser.org/).
+> This repository uses Browser Library, not Selenium (which might more popular out there). Documentation can be found [here](https://robotframework-browser.org/).
 
 ## Requirements
 
@@ -25,7 +25,10 @@ This is a simple sample for Test Automation using RobotFramework.
 * Run specific test : 
    ```
    robot tests/{test file name using extention ".robot"}
-   sample : robot tests/001.robot
+   sample :
+   robot tests/001.robot
+   robot tests/002.robot
+   robot tests/LoginPageTest.robot
    ```
 
 ## Open Test Report
@@ -38,7 +41,7 @@ This is a simple sample for Test Automation using RobotFramework.
 
 ## Repository Explanation
 
-This sample Test Automation consisted of 3 main folders : 
+This sample Test Automation consists of 3 main folders : 
 
 * config
    ```
@@ -53,7 +56,7 @@ This sample Test Automation consisted of 3 main folders :
    ```
 * tests
    ```
-   Contains test cases for each web pages
+   Contains test cases
    ```
 
 Apart from these 3 folders, this sample also using .yaml file in case you want to use external file to store any data. On this sample, URL for test is stored there :
