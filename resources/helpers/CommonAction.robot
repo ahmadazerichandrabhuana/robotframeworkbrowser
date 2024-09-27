@@ -84,3 +84,9 @@ Verify Search Query Paramater Value
     [Arguments]     ${param}    ${text}
     ${value}=       Get Value of URL Paramater      ${param}
     Should Be Equal As Strings      ${text}     ${value}
+
+Verify Current URL
+    [Documentation]
+    [Arguments]    ${text}
+    ${currentUrl}=  Get Url
+    Should Be Equal As Strings      ${text}     ${currentUrl}
