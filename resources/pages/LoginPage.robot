@@ -52,3 +52,9 @@ Verify error "Username and Password do not match"
     Verify Element  ${buttonError}
     Verify Element  ${iconButtonError}
     Verify Element Text  ${textHeaderError}  Epic sadface: Username and password do not match any user in this service
+
+Verify Login Page is not shown anymore
+    Verify Element Not Available  ${textHeaderLogin}
+    Verify Element Not Available  ${inputUsername}
+    Verify Element Not Available  ${inputPassword}
+    Verify Element Not Available  ${buttonLogin}
