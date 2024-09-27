@@ -24,3 +24,12 @@ As a User, I will see Error when input incorrect Username and Password then clic
     LoginPage.Verify error on field Username
     LoginPage.Verify error on field Password
     LoginPage.Verify error "Username and Password do not match"
+
+As a User, I will not see Login Page anymore when input correct Username and Password then click Login button
+    [Documentation]  Click Login Button after filling Username and Password with correct value
+    ...              User should not see Login Page anymore and redirected to Page 'https://www.saucedemo.com/inventory.html
+    LoginPage.Input Username    standard_user
+    LoginPage.Input Password    secret_sauce
+    LoginPage.Click Login button
+    LoginPage.Verify Login Page is not shown anymore
+    Verify Current URL  https://www.saucedemo.com/inventory.html
