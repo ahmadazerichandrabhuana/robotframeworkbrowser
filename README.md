@@ -47,7 +47,7 @@ This sample Test Automation consists of 3 main folders :
 
 * config
    ```
-   Contains configuration of Variables, Settings, and Keyword wich will be used globally on this whole project
+   Contains basic configuration of Variables, Settings, and Keyword wich will be used globally on this whole project
    ```
 * resources
    ```
