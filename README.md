@@ -59,7 +59,7 @@ This sample Test Automation consists of 3 main folders :
    Contains test cases
    ```
 
-Apart from these 3 folders, this sample also using .yaml file in case you want to use external file to store any data. On this sample, URL for test is stored there :
+Apart from these 3 folders, this sample also using 'env.yaml' file which can be used to store configuration-specific data. On this sample, URL for test is stored there :
    ```
    SauceDemo_URL: https://www.saucedemo.com/
    ```
