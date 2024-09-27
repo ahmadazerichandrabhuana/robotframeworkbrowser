@@ -79,19 +79,6 @@ Get Text Element by Index
 
     [Return]    ${text}
 
-Get Value of URL Paramater
-    [Documentation]     Return value of specific url parameter
-    ...     NEED TO IMPROVE : Decode URL using `urllib.parse.unquote_plus` --> https://docs.python.org/3/library/urllib.parse.html
-    [Arguments]     ${param}
-    ${currentUrl}=      Get Url
-    ${currentUrl}=      Remove String       ${currentUrl}       ${WHITELABEL_V2_URL}/en-ae/
-    ${value}=     Fetch From Right     ${currentUrl}       ${param}=
-    ${value}=     Fetch From Left     ${value}       &
-    ${value}=     Replace String    ${value}    %20     ${SPACE}    ## NEED TO IMPROVE
-    ${value}=     Replace String    ${value}    +     ${SPACE}    ## NEED TO IMPROVE
-
-    [Return]    ${value}
-
 Verify Search Query Paramater Value
     [Documentation]     Validate value of an url paramater
     [Arguments]     ${param}    ${text}
