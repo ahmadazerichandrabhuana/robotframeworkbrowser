@@ -17,7 +17,8 @@ This is a simple sample for Test Automation using Robot Framework.
    pip install -r requirements.txt
    rfbrowser init
    ```
-   If the pip install process failed, try to downgrade your python version. I used python `3.9.10` when creating this repository. When I tried on different local machine with python `3.13.0` somehow the pip installation process is error. If rfbrowser init is failed, you may forgot to install NodeJS, install it first.
+   - If the pip install process is failed, try to downgrade your python version. I used python `3.9.10` when creating this repository. When I tried on different local machine with python `3.13.0` somehow the pip installation process is error.
+   - If `rfbrowser init` is failed, you may forgot to install NodeJS, install it first.
 
 ## Run Tests
 * Run all tests : 
@@ -28,6 +29,7 @@ This is a simple sample for Test Automation using Robot Framework.
 * Run specific test : 
    ```
    robot tests/{test file name using extention ".robot"}
+
    sample :
    robot tests/001.robot
    robot tests/002.robot
@@ -35,14 +37,24 @@ This is a simple sample for Test Automation using Robot Framework.
    ```
 
 ## Open Test Report
+   MacOs : 
 
     open report.html
+   Windows : 
+
+    start report.html
+   Or just drag and drop file `report.html` into your Browser.
 
 ## Open Test Log
+   MacOs : 
 
     open log.html
+   Windows : 
 
-## Repository Explanation
+    start log.html
+   Or just drag and drop file `log.html` into your Browser.
+
+## Short Repository Explanation
 
 This sample Test Automation consists of 3 main folders : 
 
