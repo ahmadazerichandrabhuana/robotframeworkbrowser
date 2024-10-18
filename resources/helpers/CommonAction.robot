@@ -77,7 +77,7 @@ Get Text Element by Index
     [Arguments]     ${element}  ${index}
     ${text}=        Get Text       ${element}\[${index}]
 
-    [Return]    ${text}
+    RETURN    ${text}
 
 Verify Search Query Paramater Value
     [Documentation]     Validate value of an url paramater
