@@ -3,21 +3,21 @@
 This is a simple sample for Test Automation using Robot Framework.
 
 > [!NOTE]  
-> This repository uses Browser Library, not Selenium (which might be more popular out there). Documentation can be found [here](https://robotframework-browser.org/).
+> This repository uses Browser Library, not Selenium (which might be more popular out there). Documentation related Browser Library can be found [here](https://robotframework-browser.org/).
 
 ## Requirements
 
 1. Install [VS Code](https://code.visualstudio.com/) or any Code Editor you're comfort with.
-2. Install [Python 3](https://www.python.org/).
-3. Make sure 'pip' also installed together with Python 3. If it is not automatically installed, refer to [Python Crash Course](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
-4. Update Python to your PATH file. Refer [here](https://realpython.com/add-python-to-path/), this website covered configuration for Windows, Linux, and MacOS.
-5. Install [NodeJS](https://nodejs.org/en/download/prebuilt-installer), this is necessary because this repository is using [Browser Library](https://docs.robotframework.org/docs/different_libraries/browser). 
+2. Install [python](https://www.python.org/), preferably verion **3.9.10** (that's the one I used and having no issue).
+3. Make sure 'pip' also installed together with python. If it is not automatically installed, refer to [Python Crash Course](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
+4. Update python to your PATH file. Refer [here](https://realpython.com/add-python-to-path/), this website covered configuration for Windows, Linux, and MacOS. Or, if you prefer using python version management tools, refer to [this article](https://medium.com/@zorozeri/how-to-install-pyenv-and-manage-pythonversion-on-your-local-machine-241b119b7ae9) for using [pyenv](https://github.com/pyenv/pyenv).
+5. Install [NodeJS](https://nodejs.org/en/download/prebuilt-installer), this is necessary because NodeJS is needed by [Browser Library](https://docs.robotframework.org/docs/different_libraries/browser). 
 7. Download and open this code repository on your local system and run these 2 commands :
    ```
    pip install -r requirements.txt
    rfbrowser init
    ```
-   - If the pip install process is failed, try to downgrade your python version. I used python `3.9.10` when creating this repository. When I tried on different local machine with python `3.13.0` somehow the pip installation process is error.
+   - If the pip install process is failed, try to downgrade your python version. I used python `3.9.10` when creating this repository (that's why I suggest it on requirements above). When I tried on different local machine with python `3.13.0` somehow the pip process is error.
    - If `rfbrowser init` is failed, you may forgot to install NodeJS, install it first.
 
 ## Run Tests
