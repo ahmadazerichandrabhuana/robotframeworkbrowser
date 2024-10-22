@@ -17,7 +17,7 @@ This is a simple sample for Test Automation using Robot Framework.
    pip install -r requirements.txt
    rfbrowser init
    ```
-   - If the pip install process is failed, try to downgrade your python version. I used python `3.9.10` when creating this repository (that's why I suggest it on requirements above). When I tried on different local machine with python `3.13.0` somehow the pip process is error.
+   - If the pip process is failed, try to downgrade your python version. I used python `3.9.10` when creating this repository (that's why I suggest it on requirements above). When I tried on different local machine with python `3.13.0` somehow the pip process is error.
    - If `rfbrowser init` is failed, you may forgot to install NodeJS, install it first.
 
 ## Run Tests
