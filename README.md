@@ -1,6 +1,6 @@
 # Test Automation using Robot Framework with Browser Library
 
-This is a simple sample for Test Automation using Robot Framework with Browser Library.
+This is a simple sample for Test Automation using [Robot Framework](https://robotframework.org/) with Browser Library.
 
 > [!NOTE]  
 > This repository uses Browser Library, not Selenium (which might be more popular out there). Documentation related Browser Library can be found [here](https://robotframework-browser.org/).
