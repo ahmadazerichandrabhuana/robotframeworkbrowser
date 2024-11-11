@@ -78,3 +78,7 @@ Apart from these 3 folders, this sample also using `env.yaml` file which can be 
    ```
    SauceDemo_URL: https://www.saucedemo.com/
    ```
+
+## Browser Library Keywords Documentation
+
+https://marketsquare.github.io/robotframework-browser/Browser.html
