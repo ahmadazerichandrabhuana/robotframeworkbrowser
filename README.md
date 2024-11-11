@@ -18,7 +18,7 @@ This is a simple sample for Test Automation using [Robot Framework](https://robo
    rfbrowser init
    ```
    - If the pip process is failed, try to downgrade your python version. I used python `3.9.10` when creating this repository (that's why I suggest it on requirements above). When I tried on different local machine with python `3.13.0` somehow the pip process is error.
-   - If `rfbrowser init` is failed, you may forgot to install NodeJS, install it first.
+   - If `rfbrowser init` is failed, you may forgot to install NodeJS, install it first. Or on MacOS/Linux you might need to run the command with prefix `sudo` (need to put your Local Machine’s Password as well).
 
 ## Run Tests
 * Run all tests : 
