@@ -5,7 +5,7 @@ This is a simple sample for Test Automation using [Robot Framework](https://robo
 > [!NOTE]  
 > This repository uses Browser Library, not Selenium (which might be more popular out there). Documentation related Browser Library can be found [here](https://robotframework-browser.org/).
 
-## Requirements
+## Requirements 
 
 1. Install [VS Code](https://code.visualstudio.com/) or any Code Editor you're comfort with.
 2. Install [python](https://www.python.org/), preferably version **3.9.10** (that's the one I used and having no issue).
